@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p {
     font-size: 30px;
     text-align: center;
@@ -9,4 +10,17 @@ img {
     display: block;
     margin: auto;
     width: 50vw;
+=======
+p {
+    font-size: 30px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 50vw;
+>>>>>>> e4a0306c1eac7b620a249d416c3a296b66ee19f2
 }
