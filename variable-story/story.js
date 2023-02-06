@@ -13,8 +13,3 @@ document.write(`<p><span class = "red">${characterName1}</span> started: "There 
 document.write(`<p class = "enter">⏎<br></p>`)
 
 
-
-document.addEventListener('click', () => {
-    day++
-    document.querySelector(".day").innerHTML = day
-})
