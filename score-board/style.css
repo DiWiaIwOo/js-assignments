@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(rgba(0 0 0/ 0.4), rgba(0 0 0/ 0.7)), url(756783.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.title {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin: 0;
+}
+.time {
+    display: flex;
+    justify-content: center;
+}
+.time>h1 {
+    padding: 0.2em;
+    font-size: 75px;
+    color: #00000060;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: orangered;
+}
+.points {
+    display: flex;
+    justify-content: space-around;
+}
+.home>p {
+    font-size: 50px;
+    color:orangered;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.visitor>p {
+    font-size: 50px;
+    color:orangered;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.shotClock {
+    text-align: center;
+}
+.shotClock>h1 {
+    color: white;
+    font-size: 50px;
+}
+.periodNum {
+    color: orangered;
+    text-align: center;
+    font-size: 45px;
+}
+.manyButtons {
+    text-align: center;
+}
+.manyButtons>button {
+    background-color: #00000050;
+    border-color: #00000000;
+    border-radius: 5px;
+    margin: 2px;
+    color: orangered;
+    font-size: 20px;
+}
+.timerButtons {
+    display: flex;
+    justify-content: space-around;
+}

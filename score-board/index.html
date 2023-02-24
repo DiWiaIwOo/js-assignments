@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="scoreboard.js"></script>
+
+    <h1 class="title">SCOREBOARD</h1>
+
+    <div class="time">
+        <h1 class="minutes">12</h1>
+        <h1>:</h1>
+        <h1 class="seconds">00</h1>
+    </div>
+    <div class="timerButtons">
+        <div class="manyButtons">
+            <button onclick="startTimer()">Start Timer</button>
+            <button onclick="stopTimer()">Stop Timer</button>
+            <button onclick="resetTimer()">Reset Timer</button>
+        </div>
+    </div>
+    <div class="points">
+        <div class="home">
+            <p class="homePoints">00</p>
+            <div class="manyButtons">
+                <button onclick="add1home()">+1</button>
+                <button onclick="add2home()">+2</button>
+                <button onclick="add3home()">+3</button>
+                <br>
+                <button onclick="minus1home()">-1</button>
+                <button onclick="minus2home()">-2</button>
+                <button onclick="minus3home()">-3</button>
+            </div>
+        </div>
+
+        <div class="period">
+            <h1 class="periodNum">0</h1>
+            <div class="manyButtons">
+                <button onclick="periodMinus()">-1</button>
+                <button onclick="periodAdd()">+1</button>
+                <br>
+                <button onclick="periodReset()">reset period</button>
+            </div>
+            
+        </div>
+        
+        <div class="visitor">
+            <p class="visitorPoints">00</p>
+            <div class="manyButtons">
+                <button onclick="add1visitor()">+1</button>
+                <button onclick="add2visitor()">+2</button>
+                <button onclick="add3visitor()">+3</button>
+                <br>
+                <button onclick="minus1visitor()">-1</button>
+                <button onclick="minus2visitor()">-2</button>
+                <button onclick="minus3visitor()">-3</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="shotClock">
+        <div class="manyButtons">
+            <button onclick="countDownButton()">Start</button>
+            <button onclick="stopCountDown()">Stop</button>
+            <button onclick="resetCountDown()">Reset</button>
+        </div>
+        <h1 class="clock">24</h1>
+    </div>
+</body>
+</html>
