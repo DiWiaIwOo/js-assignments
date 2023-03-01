@@ -27,6 +27,8 @@
     </div>
     <div class="points">
         <div class="home">
+            <h1 class="homeTitle">HOME</h1>
+            <button onclick="askHome()">Change Home Name</button>
             <p class="homePoints">00</p>
             <div class="manyButtons">
                 <button onclick="add1home()">+1</button>
@@ -51,6 +53,8 @@
         </div>
         
         <div class="visitor">
+            <h1 class="visitorTitle">GUEST</h1>
+            <button onclick="askGuest()">Change Guest Name</button>
             <p class="visitorPoints">00</p>
             <div class="manyButtons">
                 <button onclick="add1visitor()">+1</button>
@@ -65,12 +69,12 @@
     </div>
 
     <div class="shotClock">
+        <h1 class="clock">24</h1>
         <div class="manyButtons">
             <button onclick="countDownButton()">Start</button>
             <button onclick="stopCountDown()">Stop</button>
             <button onclick="resetCountDown()">Reset</button>
         </div>
-        <h1 class="clock">24</h1>
     </div>
 </body>
 </html>

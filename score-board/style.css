@@ -20,6 +20,7 @@ body {
     color: #00000060;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: orangered;
+    margin-top: 0;
 }
 .points {
     display: flex;
@@ -30,12 +31,24 @@ body {
     color:orangered;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
+    margin: 0;
+}
+.homePoints, .homeTitle {
+    text-align: center;
+}
+.homeTitle, .visitorTitle {
+    color: orangered;
+    font-size: 50px;
 }
 .visitor>p {
     font-size: 50px;
     color:orangered;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
+    margin: 0;
+}
+.visitorPoints, .visitorTitle {
+    text-align: center;
 }
 .shotClock {
     text-align: center;
@@ -51,16 +64,28 @@ body {
 }
 .manyButtons {
     text-align: center;
+    margin: 1em, 0, 1em, 0 ;
 }
 .manyButtons>button {
     background-color: #00000050;
-    border-color: #00000000;
+    border-color: orangered;
     border-radius: 5px;
     margin: 2px;
     color: orangered;
     font-size: 20px;
 }
+button {
+    background-color: #00000050;
+    border-color: orange;
+    border-radius: 5px;
+    margin: 2px;
+    color: orange;
+    font-size: 20px;
+}
 .timerButtons {
     display: flex;
     justify-content: space-around;
+}
+.clock {
+    margin-top: 0;
 }

@@ -16,6 +16,15 @@ function add0AtFrontHomeVisitor() {
     }
 }
 
+function askHome() {
+    const homeName = prompt("Home team name: ")
+    document.querySelector(".homeTitle").innerHTML = homeName
+}
+function askGuest() {
+    const guestName = prompt("Guest team name: ")
+    document.querySelector(".visitorTitle").innerHTML = guestName
+}
+
 function add1home() {
     homePoints++
     add0AtFrontHome()
@@ -116,17 +125,23 @@ function minus3visitor() {
 
 let secLeft = 24
 let secLeftInterval
+let isShotclockOn = false
 
 function countDownButton() {
-    secLeftInterval = setInterval(countDownShoot, 1000)
+    if(isShotclockOn === false) {
+        secLeftInterval = setInterval(countDownShoot, 1000)
+    }
+    isShotclockOn = true
 }
 function stopCountDown() {
-    clearInterval(secLeftInterval)
+    if(isShotclockOn === true) {
+        clearInterval(secLeftInterval)
+    }
+    isShotclockOn = false
 }
 function resetCountDown() {
     secLeft = 24
-    clearInterval(secLeftInterval)
-    countDownButton()
+    document.querySelector(".clock").innerHTML = secLeft
 }
 function countDownShoot() {
     secLeft--
