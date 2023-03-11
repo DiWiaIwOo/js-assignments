@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://assets.razerzone.com/eeimages/products/25675/ornatachroma-starlight.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, h2, p {
+    color: whitesmoke;
+}
+
+#header {
+    text-align: center;
+    font-size: 3em;
+}
+.base {
+    display: flex;
+    justify-content: space-around;
+}
+.base > p {
+    font-weight: bold;
+    font-size: 40px;
+    width: 25%;
+    text-align: center;
+}
+.data {
+    display: flex;
+    justify-content: space-around;
+}
+.data > div > p {
+    font-size: 15px;
+    width: 25%;
+    text-align: center;
+    width: 3em;
+}
+.final > h1, h2 {
+    margin: 10px;
+}
+.manyFinals > div, h1{
+    text-align: center;
+}
+.manyFinals {
+    margin-bottom: 3em;
+}
+.footer {
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.20);
+    text-align: center;
+    padding: 0.5em;
+}
