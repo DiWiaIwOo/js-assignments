@@ -1,0 +1,38 @@
+body {
+    background-color: #3d3d3d;
+    margin: 0;
+}
+h1 {
+    text-align: center;    
+    color: white;
+}
+.big {
+    display: flex;
+    width: auto;
+    margin-left: 15vw;
+}
+button {
+    width: 100px;
+    height: 45px;
+    margin: 0.3em;
+    border-color: rgb(255, 225, 0);
+    border-radius: 0.5em;
+    background-color: rgb(20, 20, 20);
+    color: aqua;
+}
+img {
+    width: 50vw;
+    height: 80vh;
+    position: absolute;
+    left: 30vw;
+    object-fit: contain;
+}
+p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
